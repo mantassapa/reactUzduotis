@@ -1,38 +1,26 @@
-.App {
-  text-align: center;
+table, th,tr{
+  border: solid 2px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+thead{
+  background-color: violet;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Tvenkinys{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 50px;
 }
-
-.App-link {
-  color: #61dafb;
+.Jura{
+  display: flex;
+  gap: 50px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#fouth4{
+  background-color: red;
+}
+#fouth_second2{
+  background-color: red;
+}
+#fouth_Third3{
+  background-color: red;
+}
+.Vandenynas{
+  display: flex;
 }
