@@ -16,14 +16,14 @@ const Gyventojai = (color) => {
                 if(seaPlaners[index].color===color.color.color){
                     ++count
                     return(<tr key={i}>
-                            <th scope='col'>{Object.values(seaPlaners[index])[2]}</th>
+                            <th scope='col' style={{backgroundColor:seaPlaners[index].color}}>{Object.values(seaPlaners[index])[2]}</th>
                     </tr>)
                 }
                 })}
                 {Object.keys(seaPlaners).map((index,i)=>{
                     if(count===0){
                     return(<tr key={i}>
-                        <th scope='col'>{Object.values(seaPlaners[index])[2]}</th>
+                        <th scope='col' style={{backgroundColor:seaPlaners[index].color}}>{Object.values(seaPlaners[index])[2]}</th>
                    </tr>)
                 }
                 })}

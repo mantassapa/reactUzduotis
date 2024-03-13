@@ -13,13 +13,13 @@ thead{
   gap: 50px;
 }
 #fouth4{
-  background-color: red;
+  background-color: violet !important;
 }
 #fouth_second2{
-  background-color: red;
+  background-color: violet !important;
 }
 #fouth_Third3{
-  background-color: red;
+  background-color: violet !important;
 }
 .Vandenynas{
   display: flex;

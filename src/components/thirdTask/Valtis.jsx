@@ -7,7 +7,7 @@ const Valtis = () => {
         <h2>valtis:</h2>
         {Object.keys(seaPlaners).map((index, i)=>{
             if(seaPlaners[index].type==="man"){
-                return(<p key={i}>{seaPlaners[index].name}</p>)
+                return(<p key={i} style={{backgroundColor:seaPlaners[index].color}}>{seaPlaners[index].name}</p>)
             }
         })}
     </div>

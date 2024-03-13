@@ -8,7 +8,7 @@ const Daiktas = ({idLyg}) => {
         return (<div className='Daiktas'>
             {Object.keys(seaPlaners).map((index, i)=>{
             if(seaPlaners[index].id%2==0){
-                return(<h3 key={i}>{seaPlaners[index].id}:{seaPlaners[index].name}</h3>)
+                return(<h3 key={i} style={{backgroundColor:seaPlaners[index].color}}>{seaPlaners[index].id}:{seaPlaners[index].name}</h3>)
             }
         })}
         </div>)
@@ -17,7 +17,7 @@ const Daiktas = ({idLyg}) => {
         return (<div className='Daiktas'>
             {Object.keys(seaPlaners).map((index, i)=>{
             if(seaPlaners[index].id%2!=0){
-                return(<h3 key={i}>{seaPlaners[index].id}:{seaPlaners[index].name}</h3>)
+                return(<h3 key={i} style={{backgroundColor:seaPlaners[index].color}}>{seaPlaners[index].id}:{seaPlaners[index].name}</h3>)
             }
         })}
         </div>)

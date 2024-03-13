@@ -24,7 +24,7 @@ const Bala = () => {
                 {Object.keys(seaPlaners).map((index,i)=>{
                    return(<tr key={i}>
                         {Object.values(seaPlaners[index]).map((el,j)=>{
-                            return(<th scope='col' key={j}>{el}</th>)
+                            return(<th scope='col' key={j} style={{backgroundColor:seaPlaners[index].color}}>{el}</th>)
                         })}
                    </tr>)
                 })}

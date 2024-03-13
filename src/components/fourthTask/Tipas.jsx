@@ -23,7 +23,7 @@ const Tipas = () => {
                   }
                    return(<tr key={i}>
                         {Object.values(seaPlaners[index]).map((el,j)=>{
-                            return(<th id={`fouth_second${colid++}`} scope='col' key={j}>{el}</th>)
+                            return(<th id={`fouth_second${colid++}`} scope='col' key={j} style={{backgroundColor:seaPlaners[index].color}}>{el}</th>)
                         })}
                    </tr>)
                 })}
